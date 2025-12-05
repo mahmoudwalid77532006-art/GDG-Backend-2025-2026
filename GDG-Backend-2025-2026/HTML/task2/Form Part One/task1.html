@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>task1</title>
+</head>
+
+<body>
+    <form action="test.py" method="post">
+        <label>subject</label><br>
+        <input type="text" name="subject" placeholder="put your subject">
+        <hr>
+
+        <label>email</label><br>
+        <input type="email" name="Email" required placeholder="must contain @">
+
+        <hr>
+
+        <label>mobile</label><br>
+        <input type="tel" name="mobile" placeholder="put your mobile">
+        <hr>
+
+
+        <label>password</label><br>
+        <input type="password" name="password" placeholder="put your password">
+        <input type="hidden" name="secret" value="secret">
+        <hr>
+
+
+        <label>username</label><br>
+        <input type="text" required placeholder="put your username" name="username">
+        <hr>
+        <input type="submit" value="Send Data"><br>
+        <input type="reset" value="Empty Form">
+    </form>
+</body>
+
+</html>
