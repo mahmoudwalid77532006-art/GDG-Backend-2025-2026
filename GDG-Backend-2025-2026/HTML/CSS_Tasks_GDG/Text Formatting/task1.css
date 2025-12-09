@@ -1,0 +1,14 @@
+div {
+  background-color: aliceblue;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  direction: ltr;
+  text-transform: capitalize;
+  text-shadow:
+    2px 2px 0 rgba(255, 0, 0, 0.7),     /* ظل أحمر */
+    4px 4px 0 rgba(30, 144, 255, 0.7),  /* ظل أزرق */
+    6px 6px 0 rgba(77, 30, 115, 0.7);   /* ظل بنفسجي */
+}

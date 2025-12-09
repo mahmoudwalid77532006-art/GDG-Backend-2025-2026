@@ -1,0 +1,22 @@
+.normal,
+.one,
+.two {
+    text-align: center;
+
+        
+        margin: 20px auto;
+        width: 300px;
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 20px;
+        background-color: #828585;
+        /* Get The Background From Image */
+        color: black;
+}
+.one{
+    background-color: rgba(130, 133, 133, 0.1);
+}
+.two{
+    background-color: rgba(130, 133, 133, 0.1);
+    color:rgb(143, 147, 149);
+}

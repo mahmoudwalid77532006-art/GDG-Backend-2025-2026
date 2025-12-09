@@ -1,0 +1,24 @@
+.one {
+    text-transform: uppercase;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1;
+
+}
+
+.three {
+    text-transform: lowercase;
+    font-size: large;
+    text-align: center;
+    
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1;
+}
+
+.two {
+    text-transform: capitalize;
+    font-size:x-large;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}

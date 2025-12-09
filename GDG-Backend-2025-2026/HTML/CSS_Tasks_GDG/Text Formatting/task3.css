@@ -1,0 +1,12 @@
+div{
+  padding:20px;
+  background:#eee;
+  width:400px;
+  margin:30px auto;
+  font-size:22px;
+  line-height:1.6;
+
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
