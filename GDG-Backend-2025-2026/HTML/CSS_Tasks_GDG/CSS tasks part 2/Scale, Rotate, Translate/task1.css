@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+/* المستطيل الرمادي */
+div {
+  width: 300px;
+  height: 200px;
+  background-color: #ddd;
+  color: #00f;
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* المستطيل البمبي */
+body::before {
+  content: "";
+  position: absolute;
+  width: 320px;
+  height: 220px;
+  background-color: #ff00ff;
+  transform: rotate(-10deg);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-10deg);
+  z-index: 1;
+}
+
+/* المستطيل السماوي */
+body::after {
+  content: "";
+  position: absolute;
+  width: 320px;
+  height: 220px;
+  background-color: #00ffff;
+  transform: rotate(10deg);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(10deg);
+  z-index: 1;
+}

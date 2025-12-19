@@ -1,0 +1,38 @@
+div {
+    width: 600px;
+    margin: 30px auto;
+    background-color: #eee;
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-family: serif;
+    border-left: orangered solid 10px;
+    border-right: rgb(149, 0, 255) solid 10px;
+    position: relative;
+}
+
+div::first-letter {
+    color: orangered;
+}
+
+div::before {
+    content: "";
+    width: 680px;
+    height: 10px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    background-image: linear-gradient(to right, orangered 20%, #0087ff 20%, #0093ff 40%, #4fbd30 40%, #43df5b 60%, #f73a3a 60%, #ff2121 80%, blueviolet 80%);
+}
+div::after{
+    content: "";
+  width: 680px;
+  height: 10px;
+  position: absolute;
+  left: -10px;
+  bottom: -10px;
+  background-image: linear-gradient(to right, orangered 20%, #0087ff 20%, #0093ff 40%, #4fbd30 40%, #43df5b 60%, #f73a3a 60%, #ff2121 80%, blueviolet 80%);
+
+}

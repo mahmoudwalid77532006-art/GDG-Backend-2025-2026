@@ -1,0 +1,66 @@
+.layout{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 50px auto 50px;
+    grid-template-areas:
+        "head head head head head head head head"
+        "section section section section section section aside aside"
+        "footer footer footer footer footer footer footer footer";
+}
+
+/* Header */
+header{
+    grid-area: head;
+    background-color: #968080;
+}
+
+/* Section */
+section{
+    grid-area: section;
+    background-color: #00ff00;
+}
+
+/* Aside */
+aside{
+    grid-area: aside;
+    background-color: #0000ff;
+}
+
+/* Footer */
+footer{
+    grid-area: footer;
+    background-color: #ffff00;
+}
+.layout header::before{
+    content: "Header";
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.layout section::before{
+    content: "Section";
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.layout aside::before{
+    content: "Aside";
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.layout footer::before{
+    content: "Footer";
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}

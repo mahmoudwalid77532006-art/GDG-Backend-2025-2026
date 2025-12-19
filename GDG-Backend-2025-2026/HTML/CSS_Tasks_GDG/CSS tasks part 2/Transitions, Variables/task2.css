@@ -1,0 +1,16 @@
+.div {
+    background-color: rgb(234, 228, 228) !important;
+    color: #151414 !important;
+    padding: 20px;
+    font-size: 20px !important;
+    border: none !important;
+    width: 400px !important;
+    text-indent: -1000px !important;
+}
+
+.div::after {
+    content: "Elzero" !important;
+    text-indent: 0 !important;
+    position: absolute;
+    left: 190px;
+}
