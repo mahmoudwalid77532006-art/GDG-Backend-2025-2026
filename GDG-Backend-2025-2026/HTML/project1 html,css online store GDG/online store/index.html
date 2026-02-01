@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Online Store</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(90deg, #4315152b, #555,0.5);
+      color: #ffffff;
+    }
+
+    header {
+      background: linear-gradient(90deg, #0aa51a98, #0f7f7680);
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 30px;
+      text-align: center;
+    }
+
+    img {
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    ul li a:hover {
+      color: #ff9800;
+    }
+
+    footer {
+      background: #222;
+      color: #ddd;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #ff9800;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Online Store</h1>
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Store</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" aria-controls="navbarNav" 
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Welcome to the Online Store</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZtigAn-A2oCX3WYYSYDwTmAHtc3vjOG5Yrg&s" width="500" alt="Store Image">
+    
+    <section class="mt-4">
+      <h3>Featured Products</h3>
+      <ul>
+        <li><a href="product1.html">Classic Football</a></li>
+        <li><a href="product2.html">Under Armour Football</a></li>
+        <li><a href="product3.html">Black Football Boots</a></li>
+        <li><a href="product4.html">Al Ahly SC Track Jacket</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Online Store. All rights reserved. | <a href="contact.html">Contact Us</a></p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
