@@ -1,0 +1,100 @@
+
+body{
+    background-image: linear-gradient(to right,#01022d,#000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: "Bubbler One", sans-serif;
+}
+
+.container{
+    background-image: 
+    linear-gradient(to right,#01022de5 30%,#00000088),
+    url(https://ca-times.brightspotcdn.com/dims4/default/c1a61d9/2147483647/strip/true/crop/3840x2160+0+0/resize/1200x675!/format/webp/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F03%2F0d%2F44d557194a8db3da6f4536cc2f30%2Favtr-226.jpg);
+     width: 80%;
+    height: 640px;
+    /* border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;  */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.container:hover{
+background-image: linear-gradient(to right,#01022de5 30%,transparent),
+    url(https://ca-times.brightspotcdn.com/dims4/default/c1a61d9/2147483647/strip/true/crop/3840x2160+0+0/resize/1200x675!/format/webp/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F03%2F0d%2F44d557194a8db3da6f4536cc2f30%2Favtr-226.jpg);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    /* border-bottom: 1px solid #fff; */
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+header .logo{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+   
+
+}
+ul {
+    letter-spacing: 2px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+   
+}
+
+ul a:hover{
+    border-bottom-color: #dbdcc0;
+}
+ul a{
+    border-bottom: 2px dashed transparent;
+}
+.logo:hover{
+    border-bottom:2px dashed #dbdcc0;
+}
+h2{
+    width:50%;
+    color:bisque;
+    font-size:100px;
+    margin-left: 40px;
+   
+}
+p{
+    color:#fff;
+    font-size: 20px;
+    margin-left: 40px;
+    width:25%;
+    margin-top :-72px;
+}
+button{
+    padding:3px;
+    margin-top:15px;
+    border-radius:10px;
+    color:#dbdcc0;
+    background-color: #00090f;
+    margin-left: 40px;
+}
+button:hover{
+    background-color: #c3c0dc;
+    color: #011c2d;
+}
