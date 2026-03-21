@@ -1,0 +1,10 @@
+<?php
+// Test Case بيشتغل مع أي قيم
+if ($a > $b) {
+  echo "A Is Larger Than B";
+} elseif ($a > $c) {
+  echo "A Is Larger Than C";
+} else {
+  echo "A Is Not Larger Than B Or C";
+}
+?>
